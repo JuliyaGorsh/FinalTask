@@ -32,3 +32,7 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+string[] array = { "hello", "2", "world", ":-)" };
+int count = CountLess3(array);
+string[] result = FillResultArray(array, count);
+PrintArray(result);
